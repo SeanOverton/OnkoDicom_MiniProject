@@ -1,5 +1,8 @@
 Application is able to open DICOM file and display it
 
+[[Next Stage: ML Pipeline]]
+Currently implementing a pipeline that allows users to load in csv data and conduct studies utilising a ML model and later output a medical professional interpretable output.
+
 Applciation uses pyside6 for GUI
 
 **To install:** 
