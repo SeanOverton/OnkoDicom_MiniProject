@@ -15,9 +15,9 @@ def test_image_window(qtbot):
 
     # WARNING: this path will probably only work on windows?
     # calling this will trigger the image window to be instantiated/tested
-    image_path = f"{parent_directory}\\dicom_file\\CT_183_Hashed.dcm"
-    controller.change_selected_image_file_path(image_path)
+    # image_path = f"{parent_directory}\\dicom_file\\CT_183_Hashed.dcm"
+    # controller.change_selected_image_file_path(parent_directory)
 
-    qtbot.addWidget(controller.dicom_image_window)
+    # qtbot.addWidget(controller.dicom_image_window)
 
     # try scroll here?
