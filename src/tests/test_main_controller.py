@@ -1,5 +1,5 @@
 """Testing the main controller"""
-from os.path import dirname
+# from os.path import dirname
 from models import main_model
 from controllers import main_controller
 
@@ -24,7 +24,7 @@ def test_main_controller(qtbot):  # pylint: disable=W0613
     # it is null until we call controller.change_selected_image_file_path()
     assert controller.get_dicom_image_parser() is None
 
-    parent_directory = dirname(__file__).split("\\src")[0]
+    # parent_directory = dirname(__file__).split("\\src")[0]
     # image_path = f"{parent_directory}\\dicom_file\\CT_183_Hashed.dcm"
     # controller.change_selected_image_file_path(image_path)
 

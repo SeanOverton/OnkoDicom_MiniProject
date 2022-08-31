@@ -1,5 +1,5 @@
 """Testing the dicom file parser model"""
-from models import dicom_file_parser_model
+# from models import dicom_file_parser_model
 
 
 def test_dicom_file_parser_model():
